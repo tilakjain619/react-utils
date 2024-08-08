@@ -22,10 +22,10 @@ This hook provides functions to get and set the document title.
 
 ```jsx
 import React, { useEffect } from 'react';
-import { usePageTitle } from 'react-utils';
+import { usePageTitle } from '@frontendchamp/react-utils';
 
 const App = () => {
-  const { getTitle, setTitle } = usePageTitle();
+  const { getTitle, setTitle } = usePageTitle(); // Call the hook
 
   useEffect(() => {
     console.log('Current title:', getTitle());
@@ -81,6 +81,3 @@ To get started with development, follow these steps:
 
 If you'd like to contribute to this project, please open an issue or submit a pull request. Make sure to follow the code style and add tests where applicable.
 
-## License
-
-This project is licensed under the MIT License.
